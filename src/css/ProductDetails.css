@@ -1,0 +1,86 @@
+.wrapperForProductDetails .label {
+    margin-top: 2rem;
+}
+
+.wrapperForProductDetails input[type="number"]:focus {
+    outline: none;
+    border-color: #e86c4f;
+}
+
+.wrapperForProductDetails input {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    /* Add border radius */
+    font-size: 1.1rem;
+    /* Increase input text size */
+    transition: border-color 0.3s ease;
+}
+
+.wrapperForProductDetails button {
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    padding: 0.4rem 0.8rem;
+    margin: 2rem 2rem 2rem 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: rgb(255, 113, 47);
+    box-shadow: 0 3px 0 rgb(145, 43, 0);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.wrapperForProductDetails label {
+    color: rgb(255, 113, 47);
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.wrapperForProductDetails ul li {
+    margin: 0.5rem;
+}
+
+#mealName {
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+    color: rgb(255, 113, 47);
+    text-shadow: #ffe600 7px 4px;
+}
+
+#price {
+    color: rgb(255, 113, 47);
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+#desc {
+    text-align: justify;
+    text-indent: 0rem;
+    margin-left: -0.5rem;
+    margin-right: 2rem;
+    margin-bottom: 0%;
+}
+
+.ingredients p {
+    color: rgb(255, 113, 47);
+    font-weight: bold;
+    line-height: 0%;
+    margin-top: 0.5rem;
+}
+
+.ingredients ol {
+    margin-top: -0.5rem;
+    margin-bottom: 2rem;
+}
+
+.ingredients li {
+    text-align: left;
+}
+
+.wrapperForProductDetails .message {
+    color: red;
+    font-size: 1.3rem;
+}

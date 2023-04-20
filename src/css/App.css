@@ -1,0 +1,239 @@
+body{
+  background-image: url("../assets/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.App {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "header header users"
+    "NavBar NavBar NavBar"
+    "content content content";
+  grid-gap: 10px;
+  /* background-color: antiquewhite; */
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+
+}
+
+.wrapper {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas: "desc desc desc desc"
+    "filter wrapperForProductList wrapperForProductList wrapperForProductList";
+  grid-gap: 10px;
+  /* background-color: antiquewhite; */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.wrapperForProduct {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 1rem;
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: rgba(255, 247, 233, 0.25);
+  box-shadow: 5px 5px rgb(255, 188, 157);
+  opacity: 0;
+  transition: transform 0.5s ease-in-out;
+  animation: fadeIn 1s ease-in-out forwards;
+}
+
+.wrapperForProduct img {
+  margin-top: 1rem;
+}
+
+.wrapperForProduct:hover {
+  transform: scale(1.05);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.wrapperForProductDesc {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  white-space: normal;
+}
+
+.label_image {
+  width: 180px;
+  height: 180px;
+  object-fit: contain;
+  border-radius: 5px;
+  box-shadow: #ffe600 7px 4px;
+}
+
+.wrapperForProductList {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.header {
+  grid-area: header;
+  text-align: left;
+  font-weight: bolder;
+  font-size: 2.5rem;
+  color: rgb(255, 113, 47);
+}
+
+.header p {
+  display: inline;
+  position: relative;
+}
+
+.header p::before {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  width: 0%;
+  height: 0.1px;
+  background: linear-gradient(to right, rgb(255, 113, 47), yellow);
+  transition: width 0.5s ease-in-out;
+  padding-bottom: 5px;
+}
+
+.header p:hover::before {
+  width: 100%;
+}
+
+.users {
+  grid-area: users;
+  font-weight: bolder;
+  font-size: 1rem;
+  color: rgb(255, 113, 47);
+}
+
+.login {
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  /* Add border radius */
+  padding: 5px;
+  font-size: 1rem;
+  /* Increase input text size */
+  transition: border-color 0.3s ease;
+}
+
+.filter {
+  grid-area: filter;
+}
+
+.NavBar {
+  grid-area: NavBar;
+}
+
+.content {
+  grid-area: content;
+  margin-bottom: 50px;
+}
+
+.content p {
+  text-align: justify;
+  padding: 1rem;
+}
+
+.desc {
+  grid-area: desc;
+  margin-top: 1.6rem;
+  margin-bottom: 1rem;
+  /* border: 3px solid black; */
+  border-radius: 20px;
+  padding: 10px;
+  background-color: rgba(255, 247, 233, 0.25);
+}
+
+.wrapperForProductList {
+  grid-area: wrapperForProductList;
+}
+
+.wrapperForProductDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: rgba(255, 247, 233, 0.3);
+  /* box-shadow: 5px 5px #888888 */
+}
+
+@media screen and (max-width: 1100px) {
+  .wrapperForProductDetails {
+    width: 98%;
+  }
+}
+
+.wrapperForProductDetailsDesc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.wrapperForProductDetailsDesc ul {
+  text-indent: -3rem;
+}
+
+.wrapperForProductDetailsDesc img {
+  margin: auto;
+}

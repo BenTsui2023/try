@@ -1,0 +1,151 @@
+.myaccountbtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.myaccountbtndetails {
+    position: absolute;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.myaccountbtndetails button {
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    padding: 0.3rem 0.4rem;
+    margin-left: 0.5rem;
+    /* margin-top: 25px; */
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: rgb(255, 113, 47);
+    box-shadow: 0 3px 0 rgb(145, 43, 0);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.myaccountbtndetails button:hover {
+    background-color: #d75a3b;
+}
+
+.myaccountbtndetails button:active {
+    box-shadow: 0 1px 0 #ae4a31;
+    transform: translateY(2px);
+}
+
+.myaccountbuttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: 0.2rem;
+}
+
+.myaccountbtn {
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 0.8rem;
+    margin: 0 0.2rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: rgb(255, 113, 47);
+    box-shadow: 0 3px 0 rgb(145, 43, 0);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.myaccountbtn:hover {
+    background-color: #d75a3b;
+}
+
+.myaccountbtn:active {
+    box-shadow: 0 1px 0 #ae4a31;
+    transform: translateY(2px);
+}
+
+.login {
+    border: 2px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    margin-bottom: 0.2rem;
+    font-size: 1rem;
+    height: 10px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border-color: #e86c4f;
+}
+
+.users {
+    position: relative;
+}
+
+.userMessage {
+    display: block;
+    margin-top: -5px;
+    /* margin-bottom: -21px; */
+    text-align: right;
+    line-height: 0%;
+    font-style: italic;
+}
+
+.userBtn:hover {
+    background-color: #d75a3b;
+}
+
+.userBtn:active {
+    box-shadow: 0 1px 0 #ae4a31;
+    transform: translateY(2px);
+}
+
+.userBtn {
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    padding: 0.4rem 0.8rem;
+    margin: 0 0.2rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: rgb(255, 113, 47);
+    box-shadow: 0 3px 0 rgb(145, 43, 0);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.welcome h2 {
+    display: block;
+    line-height: 0%;
+    text-align: right;
+}
+
+.welcome {
+    position: absolute;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    animation: fadeIn 1s ease-in-out forwards;
+}

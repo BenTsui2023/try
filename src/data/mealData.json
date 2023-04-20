@@ -1,0 +1,120 @@
+{
+    "mealData": [
+        {
+            "price": 5.50,
+            "description": "Apam Balik - Malaysian Sweet Peanut Pancake. Indulge in the sweet and nutty flavors of Apam Balik! This popular Malaysian dessert features a crispy yet fluffy pancake made with flour, eggs, sugar, and coconut milk, filled with a delicious mixture of roasted peanuts, sugar, and butter. Satisfy your sweet tooth with every bite of this mouth-watering treat, perfect as a snack or dessert. Order now and experience the authentic taste of Malaysian cuisine with Apam Balik!"
+        },
+        {
+            "price": 8.75,
+            "description": "Apple & Blackberry Crumble - Warm & Comforting Dessert. Get ready to sink your teeth into the ultimate comfort food - our Apple & Blackberry Crumble! Made with fresh, juicy apples and plump blackberries, this warm and fruity dessert is topped with a crunchy crumble made of butter, flour, and sugar. Perfectly balanced with just the right amount of sweetness, this classic British dessert will take you on a nostalgic journey with every bite. Served with a dollop of whipped cream or a scoop of vanilla ice cream, our Apple & Blackberry Crumble is the perfect ending to any meal. Order now and enjoy the cozy and comforting taste of home with every spoonful."
+        },
+        {
+            "price": 12.30,
+            "description": "Apple Frangipan Tart - A Classic French Dessert. Indulge in the rich and decadent flavors of our classic French Apple Frangipane Tart! Made with a buttery pastry crust, this tart is filled with a delicious almond frangipane filling and topped with thinly sliced apples, giving it a beautiful and elegant presentation. Each bite delivers a perfect balance of sweetness and nuttiness, making this tart a dessert lover's dream come true. Serve it warm with a scoop of vanilla ice cream or a dollop of whipped cream for the ultimate indulgence. Order now and treat yourself to a taste of France with every bite of our Apple Frangipane Tart."
+        },
+        {
+            "price": 9.25,
+            "description": "Bakewell Tart - A Classic British Dessert. Treat yourself to the sweet and nutty flavors of our Bakewell Tart! This classic British dessert is made with a buttery shortcrust pastry base, filled with a layer of raspberry jam, and topped with a moist almond frangipane filling. The combination of the tangy raspberry jam and the rich almond filling creates a perfect harmony of flavors that will tantalize your taste buds. Served warm with a dollop of whipped cream or a scoop of vanilla ice cream, our Bakewell Tart is the perfect dessert to end any meal on a high note. Order now and experience the authentic taste of British cuisine with every bite of our Bakewell Tart."
+        },
+        {
+            "price": 7.50,
+            "description": "Banana Pancakes - Fluffy and Sweet Breakfast Treat. Start your day off right with our delicious and fluffy Banana Pancakes! Made with ripe bananas, flour, eggs, milk, and a touch of cinnamon, these pancakes are packed with flavor and are sure to satisfy your sweet tooth. Each bite is a perfect combination of soft, fluffy pancake and sweet, caramelized bananas. Served warm with a drizzle of maple syrup and a pat of butter, our Banana Pancakes are the ultimate breakfast treat that will keep you coming back for more. Order now and enjoy a delicious and satisfying breakfast from the comfort of your own home."
+        },
+        {
+            "price": 14.90,
+            "description": "Battenberg Cake - A British Class. Indulge in the delightful taste of our Battenberg Cake! This classic British cake features a unique checkerboard pattern made with two layers of almond sponge cake, sandwiched together with apricot jam and covered with a layer of marzipan. The moist, fluffy cake and the sweet, nutty marzipan create a perfect balance of flavors that will transport you to a cozy British tea party. Whether you're in the mood for a sweet snack or want to enjoy a traditional British dessert, our Battenberg Cake is the perfect choice. Order now and treat yourself to the authentic taste of British baking."
+        },
+        {
+            "price": 6.75,
+            "description": "BeaverTails - Canada's Iconic Dessert. Satisfy your sweet cravings with Canada's iconic dessert - BeaverTails! Our warm and crispy pastries are hand-stretched to resemble the shape of a beaver's tail, and topped with your choice of sweet and savory toppings. Choose from classic toppings like cinnamon and sugar, Nutella and bananas, or go for something more adventurous like maple bacon or s'mores. Our BeaverTails are perfect for sharing with friends and family or enjoying as a tasty treat all to yourself. Order now and experience the sweet taste of Canada with our famous BeaverTails."
+        },
+        {
+            "price": 9.95,
+            "description": "Blackberry Fool - A Perfect Summer Dessert. Cool down on a hot summer day with our refreshing Blackberry Fool! Made with juicy blackberries, sweetened whipped cream, and a touch of sugar, this classic British dessert is perfect for satisfying your sweet tooth while keeping you feeling light and refreshed. Our Blackberry Fool is made with only the freshest ingredients and can be enjoyed as a standalone dessert or paired with your favorite summer berries. Order now and treat yourself to a delightful and refreshing taste of summer with our Blackberry Fool."
+        },
+        {
+            "price": 7.80,
+            "description": "Bread and Butter Pudding - A Classic British Dessert. Indulge in the rich and comforting flavors of our Bread and Butter Pudding! Made with buttery brioche bread, rich cream, eggs, and a touch of sugar and spice, this classic British dessert is perfect for satisfying your sweet tooth while transporting you to a cozy and comforting place. Our Bread and Butter Pudding is baked to perfection and can be enjoyed warm or chilled, with a dollop of whipped cream or a scoop of vanilla ice cream. Order now and experience the timeless taste of a classic British dessert with our Bread and Butter Pudding."
+        },
+        {
+            "price": 11.50,
+            "description": "Budino Di Ricotta - A Creamy and Decadent Italian Dessert. Experience the rich and luxurious taste of Italy with our Budino Di Ricotta! Made with creamy ricotta cheese, sugar, and a touch of vanilla, this decadent dessert is sure to satisfy your sweet cravings. Our Budino Di Ricotta is baked to perfection, resulting in a smooth and silky texture that melts in your mouth. Perfect as a dessert or snack, this Italian classic pairs well with a variety of fruits and nuts. Order now and treat yourself to a taste of Italy with our creamy and indulgent Budino Di Ricotta."
+        },
+        {
+            "price": 16.50,
+            "description": "Beef and Mustard Pie - A Savory British Classic. Sink your teeth into the rich and savory flavors of our Beef and Mustard Pie! Made with tender beef, hearty vegetables, and a touch of tangy mustard, this classic British dish is the perfect comfort food for any occasion. Our Beef and Mustard Pie is baked to golden perfection in a flaky pastry crust, delivering a satisfying crunch with every bite. Served hot and fresh, this dish pairs perfectly with a side of creamy mashed potatoes or crispy french fries. Order now and experience the authentic taste of Britain with our Beef and Mustard Pie."
+        },
+        {
+            "price": 19.25,
+            "description": "Beef and Oyster Pie - A Classic British Delicacy. Indulge in the rich and savory flavors of our Beef and Oyster Pie! This classic British dish features tender beef, plump oysters, and a hearty gravy, all baked together in a flaky pastry crust. The combination of beef and oysters creates a unique flavor profile that is both satisfying and delicious. Our Beef and Oyster Pie is a comfort food that will leave you feeling warm and satisfied. Served hot and fresh, this dish pairs perfectly with a side of buttery mashed potatoes or a crisp green salad. Order now and experience the authentic taste of Britain with our Beef and Oyster Pie."
+        },
+        {
+            "price": 14.75,
+            "description": "Beef Banh Mi Bowls - A Flavorful Vietnamese-Inspired Dish. Savor the bold and aromatic flavors of our Beef Banh Mi Bowls! Inspired by the traditional Vietnamese sandwich, our bowls feature tender strips of beef marinated in a sweet and savory sauce, served over a bed of steaming hot rice, and topped with pickled vegetables, fresh herbs, and spicy sriracha mayo. The combination of tangy and spicy flavors, along with the tender beef, creates a mouth-watering dish that will leave you wanting more. Our Beef Banh Mi Bowls are a healthy and filling meal option, perfect for lunch or dinner. Order now and experience the delicious taste of Vietnamese cuisine with our Beef Banh Mi Bowls."
+        },
+        {
+            "price": 22.50,
+            "description": "Beef Bourguignon - A Classic French Comfort Dish. Indulge in the rich and savory flavors of our Beef Bourguignon, a classic French comfort dish that is sure to warm you up on a cold day! Made with tender chunks of beef simmered in a red wine sauce, and flavored with garlic, onions, and aromatic herbs, our Beef Bourguignon is a hearty and satisfying meal that will leave you feeling satisfied. Served with a side of buttery mashed potatoes or crusty bread, this dish is perfect for a cozy night in or a dinner party with friends. Order now and experience the authentic taste of French cuisine with our Beef Bourguignon."
+        },
+        {
+            "price": 26.80,
+            "description": "Beef Brisket Pot Roast - Slow-Cooked Comfort Food. Get ready to savor the delicious and comforting flavors of our Beef Brisket Pot Roast! Made with succulent beef brisket, slow-cooked to perfection in a savory blend of beef broth, aromatic vegetables, and fragrant herbs, this dish is guaranteed to satisfy your hunger and your taste buds. Tender and flavorful, our Beef Brisket Pot Roast is the perfect meal for a cozy family dinner or a lazy Sunday brunch. Served with a side of fluffy mashed potatoes or buttery vegetables, this dish is sure to become a favorite. Order now and enjoy the ultimate comfort food experience with our Beef Brisket Pot Roast!"
+        },
+        {
+            "price": 18.75,
+            "description": "Beef Dumpling Stew - Hearty and Satisfying Comfort Food. Indulge in the warm and comforting flavors of our Beef Dumpling Stew! Made with tender chunks of beef, slowly simmered in a savory broth with a medley of vegetables and fragrant herbs, this dish is the ultimate comfort food. Topped with fluffy and buttery dumplings, this hearty stew is sure to fill you up and keep you satisfied. Perfect for a chilly evening or a lazy weekend afternoon, our Beef Dumpling Stew is the perfect meal for any occasion. Order now and enjoy the ultimate comfort food experience with our Beef Dumpling Stew!"
+        },
+        {
+            "price": 13.90,
+            "description": "Beef Lo Mein - Savory and Delicious Chinese Noodles. Satisfy your craving for authentic Chinese cuisine with our Beef Lo Mein! This classic dish features tender slices of beef stir-fried with fresh vegetables, all tossed together with chewy and flavorful lo mein noodles. Our chefs use only the freshest ingredients and a perfect blend of savory sauces to create this delectable dish. Whether you're in the mood for a quick lunch or a delicious dinner, our Beef Lo Mein is the perfect meal for any occasion. Order now and experience the delicious taste of traditional Chinese cuisine with our Beef Lo Mein!"
+        },
+        {
+            "price": 20.25,
+            "description": "Beef Rendang - A Flavorful Indonesian Delight. Experience the rich and complex flavors of Indonesia with our Beef Rendang! This traditional dish features tender chunks of beef slowly cooked in a fragrant blend of spices and coconut milk, resulting in a mouth-watering curry that is bursting with flavor. Our chefs use only the highest quality ingredients, including fresh herbs and spices, to create this authentic and delicious meal. Perfectly paired with steamed rice, our Beef Rendang is the ultimate comfort food that will transport your taste buds to Southeast Asia with every bite. Order now and enjoy the authentic taste of Indonesia with our Beef Rendang!"
+        },
+        {
+            "price": 17.50,
+            "description": "Beef Stroganoff - A Hearty and Comforting Classic. Looking for a comforting and satisfying meal? Try our Beef Stroganoff! Made with tender strips of beef cooked in a rich and creamy sauce, this classic Russian dish is the ultimate comfort food. Our chefs use only the highest quality ingredients, including tender beef, mushrooms, onions, and sour cream, to create a meal that is hearty and delicious. Perfectly paired with egg noodles or rice, our Beef Stroganoff is the perfect meal for a cozy night in. Order now and enjoy a classic dish that has stood the test of time with our Beef Stroganoff!"
+        },
+        {
+            "price": 29.75,
+            "description": "Beef Sunday Roast - Classic British Comfort Food. Experience the ultimate comfort food with our Beef Sunday Roast! This classic British dish features succulent roasted beef served with crispy roast potatoes, fluffy Yorkshire pudding, and a selection of seasonal vegetables. Our beef is slow-cooked to perfection, ensuring every bite is tender, juicy, and bursting with flavor. The perfect meal to gather the whole family around the table, this dish will leave you feeling satisfied and content. Order now and savor the taste of home-cooked goodness with our Beef Sunday Roast."
+        },
+        {
+            "price": 10.99,
+            "description": "Chili Prawn Linguine - A Spicy & Flavorful Pasta Dish. Craving something spicy and delicious? Try our Chili Prawn Linguine! This flavorful pasta dish features linguine noodles tossed in a spicy chili sauce with tender prawns, garlic, and fresh herbs. Our chefs use only the highest quality ingredients to create a dish that is bursting with flavor and sure to satisfy your taste buds. Whether you're a fan of spicy food or just looking for a unique and delicious pasta dish, our Chili Prawn Linguine is the perfect choice. Order now and experience the bold and delicious flavors of this classic dish!"
+        },
+        {
+            "price": 12.99,
+            "description": "Fettuccine Alfredo - A Classic Pasta Dish. Indulge in the classic and creamy Italian-American dish of Fettuccine Alfredo! Our chefs expertly prepare freshly cooked fettuccine pasta, topped with a rich and luxurious sauce made with butter, heavy cream, and Parmesan cheese. This comforting and satisfying pasta dish is perfect for any occasion, whether it's a cozy night in or a romantic dinner for two. Our Fettuccine Alfredo is made with only the freshest ingredients, ensuring that every bite is packed with flavor. Order now and enjoy a classic pasta dish that will satisfy your cravings and leave you feeling content!"
+        },
+        {
+            "price": 12.99,
+            "description": "Fettucine Alfredo - Creamy and Delicious Italian Classic. Indulge in the creamy and savory flavors of Fettucine Alfredo! This classic Italian dish features long, flat noodles smothered in a rich and decadent sauce made with butter, cream, and Parmesan cheese. Our chefs use only the finest ingredients to create a sauce that is velvety and smooth, perfectly coating each strand of pasta. This comforting and filling meal is perfect for a cozy night in or for entertaining guests. Pair with a glass of wine and enjoy the taste of Italy from the comfort of your own home. Order now and experience the deliciousness of Fettucine Alfredo!"
+        },
+        {
+            "price": 8.99,
+            "description": "Grilled Mac and Cheese Sandwich - A Comforting and Indulgent Delight. Craving something indulgent and comforting? Look no further than our Grilled Mac and Cheese Sandwich! Made with crispy buttered bread and ooey-gooey mac and cheese, this sandwich is the ultimate comfort food. Our chefs use only the finest ingredients, including high-quality cheeses and creamy macaroni, to create a sandwich that is both satisfying and delicious. Perfect for lunch or dinner, our Grilled Mac and Cheese Sandwich is the ultimate treat for cheese lovers. Order now and indulge in a sandwich that will warm your heart and soul!"
+        },
+        {
+            "price": 9.99,
+            "description": "Lasagna Sandwiches - A Delicious Twist on a Classic Dish. Looking for a new way to enjoy lasagna? Try our Lasagna Sandwiches! Layers of hearty beef and tomato sauce, creamy ricotta cheese, and savory mozzarella cheese are sandwiched between two slices of garlic bread, creating a unique and delicious twist on a classic Italian dish. Our chefs use only the freshest ingredients to ensure that every bite is bursting with flavor. Perfect for lunch or dinner, our Lasagna Sandwiches are sure to satisfy your cravings for something warm and comforting. Order now and experience the deliciousness of our Lasagna Sandwiches!"
+        },
+        {
+            "price": 14.99,
+            "description": "Lasagne - A Classic Italian Dish. Looking for a classic Italian dish? Try our Lasagne! Made with layers of fresh pasta sheets, savory meat sauce, creamy bechamel sauce, and gooey melted cheese, our Lasagne is the ultimate comfort food. Our chefs use only the finest ingredients, including premium ground beef, fresh herbs, and homemade tomato sauce, to create a delicious and satisfying meal. Perfectly paired with garlic bread and a side salad, our Lasagne is the perfect meal for a cozy night in. Order now and indulge in a taste of Italy with our Lasagne!"
+        },
+        {
+            "price": 7.99,
+            "description": "Pilchard Puttanesca - A Flavorful and Nutritious Italian Dish. Looking for a healthy and delicious Italian meal? Try our Pilchard Puttanesca! Made with fresh and sustainably caught pilchards, our chefs create a rich and flavorful sauce with tomatoes, garlic, olives, capers, and anchovies. Served with al dente spaghetti, this dish is not only full of flavor but also packed with nutrients. Our pilchards are high in omega-3 fatty acids and vitamins, making it a perfect meal for health-conscious customers. Order now and enjoy a dish that is both delicious and nutritious with our Pilchard Puttanesca!"
+        },
+        {
+            "price": 11.99,
+            "description": "Spaghetti Alla Carbonara - Rich and Savory Italian Delight. Craving a hearty and flavorful Italian dish? Look no further than our Spaghetti alla Carbonara! Made with al dente spaghetti, crispy bacon, and a creamy Parmesan sauce, this classic pasta dish is a fan favorite. Our chefs use only the freshest ingredients and traditional techniques to create a rich and savory flavor that will leave you wanting more. Perfectly paired with a glass of red wine, our Spaghetti alla Carbonara is the perfect choice for a cozy night in or a dinner party with friends. Order now and experience the authentic taste of Italy with our Spaghetti alla Carbonara!"
+        },
+        {
+            "price": 17.99,
+            "description": "Venetian Duck Ragu - A Rich and Flavorful Italian Classic. Indulge in the rich and savory flavors of Venetian Duck Ragu! Our chefs slowly braise tender duck meat in a rich tomato sauce with aromatic herbs and spices, creating a deeply flavorful and satisfying dish that is perfect for a cozy night in. Served over your choice of pasta, our Venetian Duck Ragu is a hearty and delicious meal that will transport your taste buds straight to Italy. Order now and experience the authentic flavors of this classic Italian dish with our Venetian Duck Ragu!"
+        }
+    ]
+}
