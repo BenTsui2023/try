@@ -39,7 +39,7 @@ const ProductDetails = () => {
       if (itemIndex === -1) {
         context.changeCartItems([...context.cartItems, { mealName: state.mealName, quantity: quantity, mealId: state.mealId, price: state.price }]);
 
-        axios.post(`${RENDER_URL}/api/orderedMeals/addNewItem`, {
+        axios.post(`${API_URL}/api/orderedMeals/addNewItem`, {
           mealName: state.mealName,
           quantity,
           mealId: state.mealId,
@@ -65,7 +65,7 @@ const ProductDetails = () => {
         newCart[itemIndex].quantity = newCart[itemIndex].quantity + quantity; 
         context.changeCartItems(newCart);
 
-        axios.post(`${RENDER_URL}/api/orderedMeals/addItem`, {
+        axios.post(`${API_URL}/api/orderedMeals/addItem`, {
           quantity: context.cartItems[itemIndex].quantity,
           mealId: state.mealId
         },

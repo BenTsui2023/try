@@ -12,7 +12,7 @@ const ShoppingCart = () => {
   //retrieve the data from database when the user ener the shopping cart
   useEffect(() => {
     axios
-      .get(`${RENDER_URL}/api/orderedMeals/`, { params: { username: context.loginUser }, 
+      .get(`${API_URL}/api/orderedMeals/`, { params: { username: context.loginUser }, 
         headers: {
           "Authorization": `Bearer ${context.currentToken}`,
           'Content-Type': 'application/json'
@@ -31,7 +31,7 @@ const ShoppingCart = () => {
     newCartItems.splice(index, 1);
     context.changeCartItems(newCartItems);
 
-    axios.post(`${RENDER_URL}/api/orderedMeals/updateCart`,
+    axios.post(`${API_URL}/api/orderedMeals/updateCart`,
       {
         newCart: newCartItems
       },
@@ -55,7 +55,7 @@ const ShoppingCart = () => {
     newCartItems[index].quantity++;
     context.changeCartItems(newCartItems);
 
-    axios.post(`${RENDER_URL}/api/orderedMeals/updateCart`,
+    axios.post(`${API_URL}/api/orderedMeals/updateCart`,
       {
         newCart: newCartItems
       },
@@ -81,7 +81,7 @@ const ShoppingCart = () => {
       context.changeCartItems(newCartItems);
     }
 
-    axios.post(`${RENDER_URL}/api/orderedMeals/updateCart`,
+    axios.post(`${API_URL}/api/orderedMeals/updateCart`,
       {
         newCart: newCartItems
       },
@@ -114,7 +114,7 @@ const ShoppingCart = () => {
 
     context.changeCartItems([]);
 
-    axios.delete(`${RENDER_URL}/api/orderedMeals/deleteCart`,
+    axios.delete(`${API_URL}/api/orderedMeals/deleteCart`,
       {
         headers: {
           "Authorization": `Bearer ${context.currentToken}`,
