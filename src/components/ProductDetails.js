@@ -11,7 +11,7 @@ const ProductDetails = () => {
   const [quantity, setQuantity] = useState(1);
   const [message, setMessage] = useState("");
 
-  const API_URL = 'http://localhost:4000'
+  const API_URL = 'https://try-lemon-six.vercel.app/'
   const RENDER_URL = 'https://csis3380-final-project.onrender.com'
 
   const SubmitMeal = (e) => {

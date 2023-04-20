@@ -6,7 +6,7 @@ import '../css/ShoppingCart.css';
 
 const ShoppingCart = () => {
   const context = useContext(UserContext);
-  const API_URL = 'http://localhost:4000'
+  const API_URL = 'https://try-lemon-six.vercel.app/'
   const RENDER_URL = 'https://csis3380-final-project.onrender.com'
 
   //retrieve the data from database when the user ener the shopping cart
