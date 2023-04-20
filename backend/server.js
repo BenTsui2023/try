@@ -33,6 +33,6 @@ app.get('/', (req, res) => {
     return res.send('Connected to the server');
 });
 
-app.listen(port, () => {
+app.listen(4000, () => {
     console.log(`starting server at port: ${port}`)
 }); 
