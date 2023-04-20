@@ -18,7 +18,7 @@ app.use(cors());
 app.use(express.json());
 app.use('/api', apiRoutes);
 
-const port = process.env.PORT || 6000;
+const port = process.env.PORT || 4000;
 const uri = process.env.ATLAS_URI;
 
 mongoose.connect("mongodb://127.0.0.1:27017/try", { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true })
